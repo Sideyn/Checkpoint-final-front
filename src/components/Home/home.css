@@ -1,0 +1,181 @@
+.description_container {
+  margin: 25px;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 5px;
+}
+
+.description_container p {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.buttons_container {
+  margin-top: 50px;
+}
+
+.container_button_projects {
+  margin-left: 60px;
+}
+
+.container_button_cv {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 70px;
+  margin-right: 120px;
+}
+
+.home_buttons,
+a.home_buttons {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.home_buttons:hover {
+  color: #29f3c3;
+}
+
+#green_hover:hover {
+  color: #29f3c3;
+}
+
+.hr_home_description {
+  margin: auto;
+  width: 80%;
+  height: 4px;
+  color: #29f3c3;
+  background-color: #29f3c3;
+}
+
+.hr_home {
+  height: 25px;
+  width: 50%;
+  color: #29f3c3;
+  background-color: #29f3c3;
+}
+
+.hr_2_home {
+  height: 25px;
+  width: 50%;
+  color: #29f3c3;
+  background-color: #29f3c3;
+  transform: translate(100%) rotate(0deg);
+}
+
+@media screen and (min-width: 768px) {
+  .description_container {
+    margin: 50px;
+  }
+
+  .description_container p {
+    line-height: 30px;
+  }
+
+  .buttons_container {
+    margin-top: 120px;
+  }
+
+  .container_button_projects {
+    margin-left: 150px;
+  }
+
+  .container_button_cv {
+    margin-top: 120px;
+    margin-right: 250px;
+  }
+
+  .home_buttons,
+  a.home_buttons {
+    font-size: 2em;
+  }
+
+  .hr_home_description {
+    height: 6px;
+  }
+
+  .hr_home {
+    height: 50px;
+  }
+
+  .hr_2_home {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .description_container {
+    margin: 80px;
+  }
+
+  .description_container p {
+    line-height: 40px;
+  }
+
+  .buttons_container {
+    margin-top: 100px;
+  }
+
+  .container_button_projects {
+    margin-left: 500px;
+  }
+
+  .container_button_cv {
+    margin-top: 100px;
+    margin-right: 580px;
+  }
+
+  .home_buttons,
+  a.home_buttons {
+    font-size: 2.5em;
+  }
+
+  .hr_home_description {
+    height: 8px;
+  }
+
+  .hr_home {
+    height: 60px;
+  }
+
+  .hr_2_home {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .description_container {
+    margin: 100px;
+  }
+
+  .description_container p {
+    line-height: 60px;
+  }
+
+  .container_button_projects {
+    margin-left: 800px;
+  }
+
+  .container_button_cv {
+    margin-top: 100px;
+    margin-right: 990px;
+  }
+
+  .home_buttons,
+  a.home_buttons {
+    font-size: 3em;
+  }
+
+  .hr_home_description {
+    height: 8px;
+  }
+  
+  .hr_home {
+    height: 80px;
+  }
+
+  .hr_2_home {
+    height: 80px;
+  }
+}

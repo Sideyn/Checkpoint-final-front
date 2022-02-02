@@ -1,0 +1,32 @@
+.Nav {
+  margin-top: 30px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navLink {
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .Nav {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .Nav {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .Nav {
+    margin-top: 60px;
+  }
+}
