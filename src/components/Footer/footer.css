@@ -1,0 +1,47 @@
+.Footer {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.hr_footer {
+  margin-bottom: 15px;
+  color: #29f3c3;
+  width: 100%;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px 15px 15px 15px;
+}
+
+.logo {
+  width: 8vw;
+}
+
+@media screen and (min-width: 768px) {
+  .Footer {
+    margin-top: 90px;
+  }
+
+  .logo {
+    width: 7vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo {
+    width: 5vw;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .Footer {
+    margin-top: 90px;
+  }
+
+  .logo {
+    width: 3vw;
+  }
+}
